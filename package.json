@@ -16,7 +16,6 @@
         "vite": "^6.0"
     },
     "dependencies": {
-        "slider": "^1.0.4",
-        "swiper": "^11.1.15"
+        "slider": "^1.0.4"
     }
 }

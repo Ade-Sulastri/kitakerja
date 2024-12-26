@@ -12,6 +12,7 @@ class Services extends Model
         'name',
         'description',
         'price',
+        'gambar'
     ];
 
     public function serviceCategories()

@@ -8,12 +8,14 @@ use Illuminate\View\Component;
 
 class service extends Component
 {
+    public $services;
+
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct($services)
     {
-        //
+        $this->services = $services;
     }
 
     /**

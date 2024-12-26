@@ -1,11 +1,11 @@
-<?php
+    <?php
 
-use Illuminate\Support\Facades\Route;
-use App\Models\categories;
-Route::get('/', function () {
-    return view('welcome');
-});
+    use Illuminate\Support\Facades\Route;
+    use App\Models\categories;
+    use App\Http\Controllers\HomeController;
 
-Route::get('/test-category' , function(){
-    return categories::all();
-});
+    Route::get('/', [HomeController::class, 'index']);
+
+    Route::get('/test-category' , function(){
+        return categories::all();
+    });
