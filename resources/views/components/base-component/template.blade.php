@@ -11,18 +11,18 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/hero.png') }}">
     <!-- Styles / Scripts -->
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-        @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/slider.scss','resources/css/contact.css'])
+        @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/slider.scss', 'resources/css/contact.css'])
     @endif
 </head>
 
-<body class="bg-[#1E56A0]">
-{{-- content --}}
+<body class="">
+    {{-- content --}}
     {{ $slot }}
 
-{{-- content --}}
+    {{-- content --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper('.blog-slider', {
