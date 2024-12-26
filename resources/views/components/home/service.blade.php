@@ -1,4 +1,4 @@
-<section class="flex flex-col gap-10">
+<section class="flex flex-col gap-10 py-5">
     <div class="my-5">
         <h2 class="font-bold text-white text-center text-2xl md:text-4xl">Layanan</h2>
         <p class="text-white text-center mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
